@@ -2,15 +2,19 @@ package com.example.ds_simulator;
 
 import javafx.animation.TranslateTransition;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class SortSimulator {
 
@@ -21,9 +25,12 @@ public class SortSimulator {
     @FXML
     private Button startButton;
     @FXML
+    private Button simulateButton;
+    @FXML
     private AnchorPane sortVisualizePane;
 
     private double currentX = 100;
+    private Circle dot;
 
     ArrayList<Integer> sortArray = new ArrayList<>();
     ArrayList<Rectangle> rectangles = new ArrayList<>();
@@ -57,64 +64,79 @@ public class SortSimulator {
     @FXML
     void onStartButtonClicked() {
         //bubbleSort();
+        simulateButton.setVisible(true);
+        simulateButton.setDisable(false);
+        dot = new Circle();
+        dot.setCenterX(110);
+        dot.setCenterY(410);
+        dot.setRadius(5);
+        dot.setFill(Color.LIME);
+        sortVisualizePane.getChildren().add(dot);
+    }
+
+    private int bubblei=0, bubblej=0;
+    @FXML
+    void onSimulateButtonClicked()
+    {
+        if (dot != null) {
+            sortVisualizePane.getChildren().remove(dot);
+        }
+
+        bubbleSort();
+        dot = new Circle();
+        dot.setCenterX(110 + bubblej*20);
+        dot.setCenterY(410);
+        dot.setRadius(5);
+        dot.setFill(Color.LIME);
+        sortVisualizePane.getChildren().add(dot);
+
     }
 
     // Function to perform bubble sort with visualization
-//    void bubbleSort() {
-//        int n = sortArray.size();
-//
-//        // Outer loop for bubble sort
-//        for (int i = 0; i < n - 1; i++) {
-//            // Inner loop for each pass of bubble sort
-//            for (int j = 0; j < n - i - 1; j++) {
-//                // If the current element is greater than the next element
-//                if (sortArray.get(j) > sortArray.get(j + 1)) {
-//                    // Swap the numbers in the array
-//                    int temp = sortArray.get(j);
-//                    sortArray.set(j, sortArray.get(j + 1));
-//                    sortArray.set(j + 1, temp);
-//
-//                    // Swap and animate the rectangles
-//                    swapAndAnimateRectangles(rectangles.get(j), rectangles.get(j + 1));
-//
-//                    // Sleep briefly to allow animation time to play before next iteration
-//                    try {
-//                        Thread.sleep(500); // Adjust the duration as needed for smooth animation
-//                    } catch (InterruptedException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            }
-//        }
-//    }
-//
-//    // Swap two rectangles and animate their movement
-//    void swapAndAnimateRectangles(Rectangle rect1, Rectangle rect2) {
-//        double x1 = rect1.getLayoutX();
-//        double x2 = rect2.getLayoutX();
-//
-//        // Create translate transitions for both rectangles
-//        TranslateTransition tt1 = new TranslateTransition(Duration.millis(500), rect1);
-//        TranslateTransition tt2 = new TranslateTransition(Duration.millis(500), rect2);
-//
-//        // Set the transitions to move the rectangles to each other's position
-//        tt1.setByX(x2 - x1);
-//        tt2.setByX(x1 - x2);
-//
-//        // Play the transitions
-//        tt1.play();
-//        tt2.play();
-//
-//        // Wait for the transitions to complete
-//        try {
-//            Thread.sleep(500);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//
-//        // After the transitions, swap the positions of the rectangles in the list
-//        rectangles.set(rectangles.indexOf(rect1), rect2);
-//        rectangles.set(rectangles.indexOf(rect2), rect1);
-//    }
+    void bubbleSort() {
+        int n = sortArray.size();
+
+        if(bubblei == n-1)
+        {
+            simulateButton.setDisable(true);
+        }
+        else if(bubblej < n-bubblei-1)
+        {
+
+            if (sortArray.get(bubblej) > sortArray.get(bubblej + 1)) {
+
+                int temp = sortArray.get(bubblej);
+                sortArray.set(bubblej, sortArray.get(bubblej + 1));
+                sortArray.set(bubblej + 1, temp);
+
+                TranslateTransition left = new TranslateTransition(Duration.seconds(2),rectangles.get(bubblej));
+                TranslateTransition right = new TranslateTransition(Duration.seconds(2),rectangles.get(bubblej+1));
+
+                left.setByX(20);
+                right.setByX(-20);
+
+
+                left.play();
+                right.play();
+
+                Rectangle tempRec = rectangles.get(bubblej);
+                rectangles.set(bubblej, rectangles.get(bubblej+1));
+                rectangles.set(bubblej+1,tempRec);
+            }
+
+
+            bubblej++;
+            if(bubblej == n-bubblei-1)
+            {
+                bubblei++;
+                bubblej = 0;
+            }
+        }
+
+    }
+
+
+
+
 
 }

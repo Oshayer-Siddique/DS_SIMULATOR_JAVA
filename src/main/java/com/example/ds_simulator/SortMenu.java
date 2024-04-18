@@ -7,10 +7,13 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class SortMenu {
 
@@ -26,6 +29,17 @@ public class SortMenu {
     private AnchorPane sortPane;
     @FXML
     private Label sortMenuText;
+
+    @FXML
+    private void initialize()
+    {    String imageFilePath = Objects.requireNonNull(getClass().getResource("/images/sortmenu.jpg")).toString();
+        Image image = new Image(imageFilePath);
+        ImageView imageView = new ImageView(image);
+        imageView.setFitWidth(600);
+        imageView.setFitHeight(600);
+        sortPane.getChildren().add(imageView);
+        imageView.toBack();
+    }
 
     public Boolean bubble = false;
     public Boolean selection = false;

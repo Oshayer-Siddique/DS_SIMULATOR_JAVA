@@ -7,10 +7,13 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class MainMenu {
     @FXML
@@ -25,12 +28,23 @@ public class MainMenu {
     private AnchorPane menuBG;
 
     @FXML
+    private void initialize()
+    {    String imageFilePath = Objects.requireNonNull(getClass().getResource("/images/aaa.jpg")).toString();
+        Image image = new Image(imageFilePath);
+        ImageView imageView = new ImageView(image);
+        imageView.setFitWidth(600);
+        imageView.setFitHeight(400);
+        menuBG.getChildren().add(imageView);
+        imageView.toBack();
+    }
+
+    @FXML
     private void onSortButtonClicked(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainMenu.class.getResource("sort-menu.fxml"));
         Stage stage=(Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         Scene scene=new Scene(fxmlLoader.load(),600,400);
         stage.setScene(scene);
-        stage.setTitle("Player 1");
+        stage.setTitle("Sort");
         stage.show();
     }
 

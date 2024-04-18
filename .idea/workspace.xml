@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-menu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-simulator.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/main-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/SortSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/main-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/main-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-simulator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ds_simulator/sort-simulator.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

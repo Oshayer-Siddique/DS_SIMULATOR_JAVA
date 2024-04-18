@@ -7,12 +7,12 @@
 
 <AnchorPane fx:id="menuBG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_simulator.MainMenu">
    <children>
-      <Label layoutX="105.0" layoutY="76.0" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: lightblue;" text="DSA SIMULATOR" textFill="RED">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="145.0" layoutY="68.0" prefHeight="78.0" prefWidth="263.0" text="DS Simulator" textAlignment="CENTER" textFill="RED">
          <font>
-            <Font name="System Bold" size="48.0" />
+            <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <Button fx:id="sortButton" contentDisplay="CENTER" layoutX="105.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="55.0" prefWidth="106.0" text="SORT" textAlignment="CENTER" textFill="#4800ff">
+      <Button fx:id="stackButton" contentDisplay="CENTER" layoutX="389.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="STACK" textAlignment="CENTER" textFill="#4800ff">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -22,7 +22,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="stackButton" contentDisplay="CENTER" layoutX="381.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="STACK" textAlignment="CENTER" textFill="#4800ff">
+      <Button fx:id="sortButton" contentDisplay="CENTER" layoutX="105.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="55.0" prefWidth="106.0" text="SORT" textAlignment="CENTER" textFill="#4800ff">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
