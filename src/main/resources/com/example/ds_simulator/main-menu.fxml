@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="menuBG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_simulator.MainMenu">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="145.0" layoutY="68.0" prefHeight="78.0" prefWidth="263.0" text="DS Simulator" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="stackButton" contentDisplay="CENTER" layoutX="389.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="STACK" textAlignment="CENTER" textFill="#4800ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchButton" contentDisplay="CENTER" layoutX="247.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="SEARCH" textAlignment="CENTER" textFill="#4800ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="sortButton" contentDisplay="CENTER" layoutX="105.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="55.0" prefWidth="106.0" text="SORT" textAlignment="CENTER" textFill="#4800ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
