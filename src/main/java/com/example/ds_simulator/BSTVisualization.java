@@ -31,6 +31,7 @@ public class BSTVisualization extends JFrame {
         setSize(1080, 720);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new BorderLayout());
+        setLocationRelativeTo(null);
 
         controlPanel = new JPanel();
         controlPanel.setBackground(Color.CYAN);

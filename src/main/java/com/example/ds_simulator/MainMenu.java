@@ -36,6 +36,7 @@ public class MainMenu {
         imageView.setFitWidth(1080);
         imageView.setFitHeight(720);
         menuBG.getChildren().add(imageView);
+
         imageView.toBack();
 
         // Load the image
@@ -82,6 +83,7 @@ public class MainMenu {
         Stage stage = new Stage();
         stage.setTitle("Data Structure Menu");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
 
 
