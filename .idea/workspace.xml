@@ -37,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BSTVisualization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueVisualization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchSimulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchVisualization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortVisualization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackVisualization.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Ratul&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/JAVAFX_CSE_4202_Project/src/main/java/com/example/ds_simulator&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/JAVAFX_CSE_4202_Project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BSTVisualization.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.QueueVisualization.executor": "Run",
+    "Application.SearchSimulator.executor": "Run",
+    "Application.SearchVisualization.executor": "Run",
+    "Application.SortVisualization.executor": "Run",
+    "Application.StackVisualization.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "E:/JAVAFX_CSE_4202_Project/src/main/java/com/example/ds_simulator",
+    "last_opened_file_path": "E:/JAVAFX_CSE_4202_Project"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
