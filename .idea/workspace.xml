@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="f2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="" />
+>>>>>>> 1f389ed79eda78b182c140c720507f774fb0306d
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BSTVisualization.executor": "Run",
     "Application.HelloApplication.executor": "Run",
+    "Application.QueueVisualization.executor": "Run",
+    "Application.SearchSimulator.executor": "Run",
+    "Application.SearchVisualization.executor": "Run",
+    "Application.SortVisualization.executor": "Run",
+    "Application.StackVisualization.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",

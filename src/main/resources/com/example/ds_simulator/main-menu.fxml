@@ -3,29 +3,42 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="menuBG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_simulator.MainMenu">
+<AnchorPane fx:id="menuBG" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_simulator.MainMenu">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="145.0" layoutY="68.0" prefHeight="78.0" prefWidth="263.0" text="DS Simulator" textAlignment="CENTER" textFill="RED">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="111.0" layoutY="74.0" prefHeight="88.0" prefWidth="416.0" text="Data Structure" textAlignment="CENTER" textFill="RED">
          <font>
-            <Font name="System Bold" size="28.0" />
+            <Font name="System Bold" size="60.0" />
          </font>
       </Label>
-      <Button fx:id="stackButton" contentDisplay="CENTER" layoutX="389.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="STACK" textAlignment="CENTER" textFill="#4800ff">
+      <Button fx:id="sortButton" contentDisplay="CENTER" layoutX="236.0" layoutY="380.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="150.0" prefWidth="180.0" textAlignment="CENTER" textFill="#4800ff">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="searchButton" contentDisplay="CENTER" layoutX="247.0" layoutY="234.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="SEARCH" textAlignment="CENTER" textFill="#4800ff">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="146.0" layoutY="147.0" prefHeight="78.0" prefWidth="345.0" text="Simulator" textAlignment="CENTER" textFill="RED">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold" size="60.0" />
          </font>
-      </Button>
-      <Button fx:id="sortButton" contentDisplay="CENTER" layoutX="105.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="55.0" prefWidth="106.0" text="SORT" textAlignment="CENTER" textFill="#4800ff">
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="10.0" layoutX="119.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Label layoutX="160.0" layoutY="250.0" prefHeight="30.0" prefWidth="318.0" text="The right place for enhancing your visualization" textFill="#ffee00">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
-      </Button>
+      </Label>
+      <Label layoutX="264.0" layoutY="530.0" prefHeight="27.0" prefWidth="123.0" text="LET' S LEARN" textFill="#00b0ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="750.0" layoutY="680.0" prefHeight="30.0" prefWidth="158.0" text="I have learned enough" textFill="#ffee00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="offButton" layoutX="785.0" layoutY="604.0" mnemonicParsing="false" onAction="#onOffButtonClicked" prefHeight="75.0" prefWidth="75.0" />
    </children>
 </AnchorPane>
