@@ -46,7 +46,7 @@ public class DataStructureMenu {
 
     @FXML
     private void initialize() {
-        String imageFilePath = Objects.requireNonNull(getClass().getResource("/images/bg3.jpg")).toString();
+        String imageFilePath = Objects.requireNonNull(getClass().getResource("/images/bg.jpg")).toString();
         Image image = new Image(imageFilePath);
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(1080);

@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ds.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dsbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/dsbg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/QueueVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/QueueVisualization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/StackVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/StackVisualization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bg6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/DataStructureMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/DataStructureMenu.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="f2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-=======
-    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="" />
->>>>>>> 1f389ed79eda78b182c140c720507f774fb0306d
->>>>>>> a88651f2ca9cfe75dae37f66233194e7526eb8b1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,28 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BSTVisualization.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.QueueVisualization.executor": "Run",
-    "Application.SearchSimulator.executor": "Run",
-    "Application.SearchVisualization.executor": "Run",
-    "Application.SortVisualization.executor": "Run",
-    "Application.StackVisualization.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "E:/JAVAFX_CSE_4202_Project/src/main/java/com/example/ds_simulator",
-    "last_opened_file_path": "E:/JAVAFX_CSE_4202_Project",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BSTVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchSimulator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackVisualization.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/JAVAFX_CSE_4202_Project/src/main/java/com/example/ds_simulator&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JAVAFX_CSE_4202_Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,11 +79,8 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-=======
     <MESSAGE value="f2" />
     <option name="LAST_COMMIT_MESSAGE" value="f2" />
->>>>>>> a88651f2ca9cfe75dae37f66233194e7526eb8b1
   </component>
 </project>
