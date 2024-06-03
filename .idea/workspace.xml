@@ -14,6 +14,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/QueueVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/QueueVisualization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/StackVisualization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/StackVisualization.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="f2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="" />
+>>>>>>> 1f389ed79eda78b182c140c720507f774fb0306d
+>>>>>>> a88651f2ca9cfe75dae37f66233194e7526eb8b1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +41,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -64,7 +72,10 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "E:/JAVAFX_CSE_4202_Project/src/main/java/com/example/ds_simulator",
-    "last_opened_file_path": "E:/JAVAFX_CSE_4202_Project"
+    "last_opened_file_path": "E:/JAVAFX_CSE_4202_Project",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,9 +87,23 @@
       <option name="presentableId" value="Default" />
       <updated>1713364800797</updated>
     </task>
+    <task id="LOCAL-00001" summary="f2">
+      <option name="closed" value="true" />
+      <created>1717161212558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717161212558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
+    <MESSAGE value="f2" />
+    <option name="LAST_COMMIT_MESSAGE" value="f2" />
+>>>>>>> a88651f2ca9cfe75dae37f66233194e7526eb8b1
   </component>
 </project>
