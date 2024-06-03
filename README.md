@@ -15,21 +15,33 @@ The Data Structure Simulator is an educational JavaFX application designed to he
 
 ### Sorting Algorithms
 - **Adjustable Simulation Speed**: Use a slider to control the speed of the simulation.
+- **Sorting Selection**: Select any sorting algorithm from the drop down box. The available sorting algorithms are: Bubble sort, Selection sort, Merge sort, Heap sort, Quick sort and Insertion sort.
 - **Custom Input Size**: Select the size of the input array to sort.
+- **Shuffle**: Shuffle the present array.
+- **Reset**: Generate a new array with random number of selected size.
+- **Back**: Return to the algorithm selection menu
 
 ### Searching Algorithms
 - **Adjustable Simulation Speed**: Use a slider to control the speed of the simulation.
+- **Searching Selection**: Select any searching algorithm from the drop down box. The available sorting algorithms are: Linear search and Binary search.
 - **Custom Input Size**: Select the size of the input array to search.
+- **Shuffle**: Shuffle the present array.
+- **Reset**: Generate a new array with random number of selected size.
+- **Back**: Return to the algorithm selection menu
 
 ### Stack Operations
-- **Visualize Operations**: See push, pop, and peek operations in action.
+- **Visualize Operations**: See push and pop operations in action.
+- **Message**: Message for popping from an empty stack.
+- **Size**: Stack size and top element is shown at left control panel and updates in each simulation.
 
 ### Queue Operations
 - **Visualize Operations**: See enqueue and dequeue operations in action.
+- **Message**: Message for dequeueing from empty queue.
+- **Size**: Queue size, front element and rear element is shown at top control panel and updates in each simulation.
 
 ### Binary Search Tree (BST) Operations
 - **Visualize Operations**: See insertion, deletion, and searching operations in action.
-- **Traversal Buttons**: Display the results of preorder, postorder, and inorder traversals.
+- **Traversal Buttons**: Display the results of preorder, postorder, and inorder traversals as message.
 
 ## Installation
 
