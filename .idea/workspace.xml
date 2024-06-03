@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bg6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/DataStructureMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ds_simulator/DataStructureMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa91d0d8-5f18-4873-a707-4963d3c9d279" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +54,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
