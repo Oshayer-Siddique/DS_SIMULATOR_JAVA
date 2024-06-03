@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ds_simulator.DataStructureMenu">
+   <children>
+      <AnchorPane fx:id="dsMenu" layoutX="3.0" prefHeight="720.0" prefWidth="1080.0">
+         <children>
+            <Label layoutX="113.0" layoutY="64.0" prefHeight="94.0" prefWidth="549.0" text="Choose algorithms to learn :" textFill="#00ff1e">
+               <font>
+                  <Font name="System Bold" size="41.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="15.0" layoutX="44.0" layoutY="105.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="15.0" layoutX="62.0" layoutY="88.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="15.0" layoutX="81.0" layoutY="105.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="15.0" layoutX="62.0" layoutY="124.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+            <Circle fill="RED" layoutX="70.0" layoutY="113.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="sortButton" graphicTextGap="0.0" layoutX="198.0" layoutY="193.0" mnemonicParsing="false" onAction="#onSortButtonClicked" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="Sort">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="searchButton" layoutX="198.0" layoutY="263.0" mnemonicParsing="false" onAction="#onSearchButtonClicked" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="Search">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="stackButton" layoutX="198.0" layoutY="333.0" mnemonicParsing="false" onAction="#onStackButtonClicked" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="Stack">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="queueButton" layoutX="198.0" layoutY="401.0" mnemonicParsing="false" onAction="#onQueueButtonClicked" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="Queue">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="bstButton" layoutX="198.0" layoutY="471.0" mnemonicParsing="false" onAction="#onBSTButtonClicked" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: cyan;" text="BST">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="offButton" layoutX="51.0" layoutY="589.0" mnemonicParsing="false" onAction="#onOffButtonClicked" prefHeight="75.0" prefWidth="75.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="126.0" layoutY="589.0" prefHeight="75.0" prefWidth="130.0" style="-fx-background-color: black;" text="Back" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
