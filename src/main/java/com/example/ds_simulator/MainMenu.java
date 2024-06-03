@@ -43,9 +43,8 @@ public class MainMenu {
 
 
 
-        String imgFilePath = Objects.requireNonNull(getClass().getResource("/images/file.png")).toString();
+        String imgFilePath = Objects.requireNonNull(getClass().getResource("/images/play.png")).toString();
         Image img = new Image(imgFilePath);
-        // Create a BackgroundImage
         BackgroundImage backgroundImage = new BackgroundImage(img,
                 BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT,

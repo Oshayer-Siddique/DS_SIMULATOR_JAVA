@@ -30,7 +30,7 @@ public class QueueVisualization {
     // BUTTONS
     JButton enqueueB = new JButton("Enqueue");
     JButton dequeueB = new JButton("Dequeue");
-    JButton backButton = new JButton("<- Main menu");
+    JButton backButton = new JButton("Back");
 
     public QueueVisualization() {
         // INIT FRAME
@@ -76,6 +76,9 @@ public class QueueVisualization {
         sizeL.setFont(new Font("Arial", Font.PLAIN, 20));
         frontL.setFont(new Font("Arial", Font.PLAIN, 20));
         rearL.setFont(new Font("Arial", Font.PLAIN, 20));
+        backButton.setFont(new Font("Arial", Font.PLAIN, 20));
+        enqueueB.setFont(new Font("Arial", Font.PLAIN, 20));
+        dequeueB.setFont(new Font("Arial", Font.PLAIN, 20));
 
         tools.add(sizeL);
         tools.add(frontL);

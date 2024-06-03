@@ -28,7 +28,7 @@ public class StackVisualization {
     // BUTTONS
     JButton pushB = new JButton("Push");
     JButton popB = new JButton("Pop");
-    JButton backButton = new JButton("<-- Main menu");
+    JButton backButton = new JButton("Back");
 
     public StackVisualization() {
         // INIT FRAME
